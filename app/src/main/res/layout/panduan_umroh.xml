@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_mabrurku"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Panduan Umroh"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Panduan Umroh Bersama Mabrurku"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="12dp"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="35dp"
+            android:paddingTop="15dp"
+            android:textSize="20dp"
+            android:text="Defenesi Umroh"
+            android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:textSize="15dp"
+                android:text="Kata haji berasal dari bahasa arab dari kata Hajja - yahujju - Hujjan)..."
+                android:textColor="#000000"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_gravity="left"
+                android:src="@mipmap/logo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Berihram (RUKUN)"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:text="Ihram (Bahasa Arab:إحرام Ihrām) adalah keadaan seseorang yang telah beniat untuk melaksanakan ibadah haji..."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_gravity="left"
+                android:src="@mipmap/logo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Ihram Zamani dan Maqani (WAJIB)"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:text="Miqat zamani maknanya adalah waktu-waktu untuk ihram untuk berhaji dan umrah. Sedangkan untuk haji, miqat zamani ditentukan pada bulan Syawwal hingga 10 hari pertama..."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_gravity="left"
+                android:src="@mipmap/logo"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/default_mabrurku"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="0dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Larangan"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Larangan Lengkap Bersama Mabrurku"
+                    android:textColor="#FFFFFF"
+                    android:paddingBottom="12dp"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="12dp"
+                android:padding="7dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Memotong kuku"
+                android:textColor="#000000"
+                android:paddingBottom="11dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="33dp"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Mencukur rambut"
+                android:textColor="#000000"
+                android:paddingBottom="11dp"
+                android:paddingLeft="12dp"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Hukum menggunakan pakaian berjahit"
+                android:textColor="#000000"
+                android:paddingBottom="11dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="33dp"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Membunuh Binatang Buruan dan Memotong Pohon "
+                android:textColor="#000000"
+                android:paddingBottom="11dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="33dp"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Melakukan Hubungan Intim Suami - Istri, Berkelahi dan Berbuat Fasiq"
+                android:textColor="#000000"
+                android:paddingBottom="11dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="37dp"
+                android:textSize="23dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

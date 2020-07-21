@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.java.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:5:5-41:19
+12        android:allowBackup="true"
+12-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Astaghfirullah\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme2" >
+21-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:11:9-41
+22        <activity android:name="id.java.myapplication.Login" >
+22-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:13:9-19:20
+22-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:13:19-40
+23            <intent-filter>
+23-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:15:17-69
+24-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:17:17-77
+26-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="id.java.myapplication.Home" />
+29-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:21:9-51
+29-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:21:19-39
+30        <activity android:name="id.java.myapplication.Panduan" />
+30-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:23:9-54
+30-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:23:19-42
+31        <activity android:name="id.java.myapplication.DetailActivity" />
+31-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:25:9-61
+31-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:25:19-49
+32        <activity android:name="id.java.myapplication.Tentang" />
+32-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:27:9-54
+32-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:27:19-42
+33        <activity android:name="id.java.myapplication.Paket" />
+33-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:29:9-52
+33-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:29:19-40
+34        <activity android:name="id.java.myapplication.Promo" />
+34-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:31:9-52
+34-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:31:19-40
+35        <activity android:name="id.java.myapplication.Persiapan" />
+35-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:33:9-56
+35-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:33:19-44
+36        <activity android:name="id.java.myapplication.Larangan" />
+36-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:35:9-55
+36-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:35:19-43
+37        <activity android:name="id.java.myapplication.PHaji" />
+37-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:37:9-52
+37-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:37:19-40
+38        <activity android:name="id.java.myapplication.PUmroh" />
+38-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:39:9-53
+38-->D:\SKRIPSI ANE\ANDROID STUDIO\New folder (7)\app\src\main\AndroidManifest.xml:39:19-41
+39    </application>
+40
+41</manifest>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+        <string name="title_activity_panduan">PanduanActivity</string>
+        <string name="title_act_main">AN-NUR KARAH AGUNG</string>
+        <string name="main_act_title">AN-NUR KARAH AGUNG</string>
+        <string name="hajiumrah">Haji \u0026 Umrah</string>
+
+
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="title_activity_detail_haji">DetailHajiActivity</string>
+        <string name="title_activity_profile">ProfileActivity</string>
+
+
+
+        <string-array name="themes">
+            <item>Dark_Green_Theme</item>
+            <item>Soft_Dark_Green</item>
+            <item>An_Nur_Theme</item>
+        </string-array>
+
+        <string name="def_theme">Theme1</string>
+        <string name="theme_summary">Theme Settings</string>
+        <string name="theme_dialog_title">Theme</string>
+        <string name="settings">Settings</string>
+        <string name="profile">Profile</string>
+
+
+
+</resources>

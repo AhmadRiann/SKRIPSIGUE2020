@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_mabrurku"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahlan"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingTop="222dp"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wasahlan"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:text="Silahkan login akun anda"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:outlineAmbientShadowColor="#FFFFFF"
+            android:outlineSpotShadowColor="#FFFFFF"
+            android:shadowColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:outlineAmbientShadowColor="#FFFFFF"
+            android:outlineSpotShadowColor="#FFFFFF"
+            android:shadowColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum Punya Akun?"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+
+                    />
+
+                <TextView
+                    android:id="@+id/btnDaftar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daftar"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

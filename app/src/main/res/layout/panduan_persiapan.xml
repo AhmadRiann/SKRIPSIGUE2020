@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/default_mabrurku"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Persiapan"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Persiapan Bersama Mabrurku"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="12dp"
+                android:textSize="15dp" />
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Laki-laki" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Perempuan" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paspor (wajib)"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="102dp" />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotokopi BPIH dan Kartu Keluarga"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="134dp" />
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BKJH ( Buku Kesehatan Jamaah Haji / Buku Hijau )"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="166dp" />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obat-obatan"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="230dp" />
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dokumen Administrasi Perjalanan Ibadah Haji (DAPIH)"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="262dp" />
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uang Riyal pecahan kecil secukupnya"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="326dp" />
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ponsel"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="102dp" />
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buku panduan ibadah haji dan umroh panduan dan doa selama melaksanakan ibadah"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="134dp" />
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kacamata Hitam"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="230dp" />
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masker"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="262dp" />
+        <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pakaian dan Perlengkapan"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Seragam haji nasional"
+            android:textColor="#000000"
+            android:paddingLeft="33dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seragam haji nasional 1 stel"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kain ihram 2 atau 3 helai"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="294dp" />
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabuk ihram1 buah"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Perempuan" />
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabuk ihram1 buah"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
